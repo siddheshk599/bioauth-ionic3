@@ -1,0 +1,18 @@
+<ion-content padding style="background-image: url('assets/imgs/bg.jpg'); background-size: cover;" class="fontChange">
+
+  <div class="imgcontainer">
+    <img src="assets/imgs/logo.png" alt="Logo" class="avatar">
+  </div>
+
+  <ion-card style="padding-top: 5%; padding-bottom: 5%;">
+      <ion-card-header>
+          <h1 style="text-align: center"><b>Welcome {{ data.name }}</b></h1>
+      </ion-card-header>
+    </ion-card><br>
+
+    <button ion-button block round icon-start style="background-color: black;" class="fontChange" (click)="logout()">
+      <ion-icon name="md-exit"> Logout</ion-icon>
+    </button>
+
+    
+</ion-content>

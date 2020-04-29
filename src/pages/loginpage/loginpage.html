@@ -1,0 +1,24 @@
+<ion-content padding class="fontChange" style="background-image: url('assets/imgs/bg.jpg'); background-size: cover;">
+
+  <h1 style="text-align: center; margin-top: 10%; font-size: 20px; color: white;"><b>Authentication App</b></h1>    
+
+  <div class="imgcontainer">
+    <img src="assets/imgs/logo.png" alt="Logo" class="avatar">
+  </div>
+
+  <form style="margin-top: 10%">
+    <div class="container">
+      <input type="text" placeholder="Enter your name" name="uname" style="border-radius: 50px;" [(ngModel)]="data.userName" required>
+    
+      <button ion-button round color="dark" (click)="login('fingerprint')"><b>Login (using Fingerprint)</b></button><br>
+
+      <div class="container">
+      <button ion-button round color="dark" (click)="login('pin')"><b>Login (using PIN)</b></button>
+
+      <button ion-button round color="dark" (click)="setupCode()"><b>Setup PIN</b></button>
+    </div>
+
+    </div>
+  </form>
+
+</ion-content>
