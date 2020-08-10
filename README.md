@@ -16,12 +16,13 @@ Setting up and installing this software is easy by just installing Ionic, Cordov
 4.	Android SDKs (from Android KitKat to Android P).
 
 # Installing required softwares:
-1.	NodeJS: https://nodejs.org/dist/v8.11.4/
-2.	Android Studio: https://developer.android.com/studio/
+1.	NodeJS: <https://nodejs.org/dist/v8.11.4/>
+2.	Android Studio: <https://developer.android.com/studio/>
 
-**For Windows users:
+**For Windows users:**
 1.	Download NodeJS & Android Studio from the provided download links.
 2.	Open Command Prompt in Administrator mode and then execute the following commands to install Ionic & Cordova using npm:
+
 		npm install -g ionic@3.9.2 cordova@8.0.0
 3.	Then open Android Studio and open the Settings menu.
 4.	In the Settings menu, select the 'Android SDK' option in the left pane.
@@ -30,6 +31,7 @@ Setting up and installing this software is easy by just installing Ionic, Cordov
 **For Ubuntu/Debian users:**
 1.	Download NodeJS & Android Studio from the provided download links.
 2.	Open the terminal and then execute the following commands to install Ionic & Cordova using npm:
+
 		npm install -g ionic@3.9.2 cordova@8.0.0
 3.	Then open Android Studio and open the Settings menu.
 4.	In the Settings menu, select the 'Android SDK' option in the left pane.
@@ -37,27 +39,32 @@ Setting up and installing this software is easy by just installing Ionic, Cordov
 
 **Following the above installation steps for required softwares will set up an environment to run the DSR Management software without any hassles.**
 
-**Running the software:**
-For Windows users:
+# Running the software:
+**For Windows users:**
 1.	For running the software, we need to install all the required dependencies for the software. This can be done by executing the following command in Command Prompt in Administrator mode in the project's directory:
+
 		npm install
 2.	After the installation of all the dependencies is completed, run the project by executing the following command in Command Prompt in the project's directory:
+
 		ionic serve
 
 **For Ubuntu/Debian users:**
 1.	For running the software, we need to install all the required dependencies for the software. This can be done by executing the following command in the terminal in the project's directory:
+
 		npm install
 2.	After the installation of all the dependencies is completed, run the project by executing the following command in terminal in the project's directory:
+
 		ionic serve
 		
 **To generate APK of the project:**
-For Windows users:
+**For Windows users:**
 1.	Make sure that you have downloaded Android Studio and have also downloaded all the required Android SDKs for the generation of APK.
 2.	Open your Command Prompt in Administrator mode and navigate to the project's directory. Then execute the following commands:
 	ionic cordova platform add android
 	ionic cordova build android
 3.	After the process is completed, the generated APK can be found by the name of 'apk-debug.apk' at the following location:
-	<Project directory's path>/platforms/android/app/build/outputs/apk
+
+	    <Project directory's path>/platforms/android/app/build/outputs/apk
 
 **For Ubuntu/Debian users:**
 1.	Make sure that you have downloaded Android Studio and have also downloaded all the required Android SDKs for the generation of APK.
@@ -65,10 +72,10 @@ For Windows users:
 	ionic cordova platform add android
 	ionic cordova build android
 3.	After the process is completed, the generated APK can be found by the name of 'apk-debug.apk' at the following location:
-	<Project directory's path>/platforms/android/app/build/outputs/apk
+
+	    <Project directory's path>/platforms/android/app/build/outputs/apk
 
 # Built with:
-
 1.	Ionic Framework - A framework for hybrid mobile app development.
 2.	Cordova - A mobile application development framework.
 
